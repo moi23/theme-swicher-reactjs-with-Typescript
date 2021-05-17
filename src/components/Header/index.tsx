@@ -13,9 +13,9 @@ const Header: React.FC<Iprops> = ({ toggleTheme }) => {
 
   return (
     <Container>
-      <h1>HELLO</h1>
+      <h3>Theme Switcher with Typescript ;)</h3>
 
-      <Switch
+      {/* <Switch
         onChange={toggleTheme}
         checked={title == 'dark'}
         checkedIcon={false}
@@ -25,7 +25,7 @@ const Header: React.FC<Iprops> = ({ toggleTheme }) => {
         handleDiameter={20}
         // offColor="gray"
         onColor={colors.secundary}
-      />
+      /> */}
     </Container>
   );
 };
